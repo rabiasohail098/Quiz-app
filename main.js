@@ -191,12 +191,12 @@ if (quiz10Ans.quiz10 == "Hazrat Luot A.S") {
     console.log(++score);
 }
 else if (quiz10Ans.quiz10 == "Hazrat Yaqoob A.S") {
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Yaqoob A.S"correct Answer is Hazrat Luot A.S.`));
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Yaqoob A.S" correct Answer is Hazrat Luot A.S.`));
 }
 else if (quiz10Ans.quiz10 == "Hazrat Shoaib A.S") {
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Shoaib A.S"correct Answer is Hazrat Luot A.S.`));
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Shoaib A.S" correct Answer is Hazrat Luot A.S.`));
 }
 else if (quiz10Ans.quiz10 == "Hazrat Hood A.S") {
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Hood A.S"correct Answer is Hazrat Luot A.S.`));
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Hood A.S" correct Answer is Hazrat Luot A.S.`));
 }
 console.log(chalk.italic.bold.magentaBright(`Your score is ${score} out of 10`));
