@@ -59,14 +59,14 @@ let quiz1Ans = await inquirer.prompt(
         console.log(chalk.bold.italic.underline.greenBright("Your answer is correct."));
         console.log(++score);
     }else if(quiz3Ans.quiz3 == "Abbu Suffiyan"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Abbu Suffiyan" Answer is Usman Bin Talha.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Abbu Suffiyan" correct Answer is Usman Bin Talha.`));   
     }else if(quiz3Ans.quiz3 == "Abbas"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Abbas" Answer is Usman Bin Talha.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Abbas" correct Answer is Usman Bin Talha.`));   
     }else if(quiz3Ans.quiz3 == "Koi bhi nahi"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Koi bhi nahi" Answer is Usman Bin Talha.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Koi bhi nahi" correct Answer is Usman Bin Talha.`));   
     }
     let quiz4Ans = await inquirer.prompt(
-    {
+        {
         name:"quiz4",
         type:"list",
         message:"Quran Pak me makki surton ki tadad kya hy?",
@@ -77,11 +77,11 @@ if (quiz4Ans.quiz4 == "86"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz4Ans.quiz4 == "82"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "82" Answer is 86.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "82" correct Answer is 86.`));   
 }else if(quiz4Ans.quiz4 == "84"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "84" Answer is 86.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "84" correct Answer is 86.`));   
 }else if(quiz4Ans.quiz4 == "88"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "88" Answer is 86.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "88" correct Answer is 86.`));   
 }
     let quiz5Ans = await inquirer.prompt(
     {
@@ -96,11 +96,11 @@ if (quiz5Ans.quiz5 == "3"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz5Ans.quiz5 == "4"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "4" Answer is 3.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "4" correct Answer is 3.`));   
 }else if(quiz5Ans.quiz5 == "2"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" Answer is 3.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" correct Answer is 3.`));   
 }else if(quiz5Ans.quiz5 == "5"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "5" Answer is 3.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "5" correct Answer is 3.`));   
 }
     let quiz6Ans = await inquirer.prompt(
     {
@@ -114,11 +114,11 @@ if (quiz6Ans.quiz6 == "4"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz6Ans.quiz6 == "1"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "1" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "1" correct Answer is 4.`));   
 }else if(quiz6Ans.quiz6 == "2"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" correct Answer is 4.`));   
 }else if(quiz6Ans.quiz6 == "3"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "3" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "3" correct Answer is 4.`));   
 }
     let quiz7Ans = await inquirer.prompt(
     {
@@ -133,11 +133,11 @@ if (quiz7Ans.quiz7 == "4"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz7Ans.quiz7 == "2"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "2" correct Answer is 4.`));   
 }else if(quiz7Ans.quiz7 == "3"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "3" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "3" correct Answer is 4.`));   
 }else if(quiz7Ans.quiz7 == "5"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "5" Answer is 4.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "5" correct Answer is 4.`));   
 }
     let quiz8Ans = await inquirer.prompt(
     {
@@ -151,11 +151,11 @@ if (quiz8Ans.quiz8 == "Surah-e-sauf"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz8Ans.quiz8 == "Surah-e-Yaseen"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Yaseen" Answer is Surah-e-sauf.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Yaseen" correct Answer is Surah-e-sauf.`));   
 }else if(quiz8Ans.quiz8 == "Surah-e-Muzamil"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Muzamil" Answer is Surah-e-sauf.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Muzamil" correct Answer is Surah-e-sauf.`));   
 }else if(quiz8Ans.quiz8 == "Surah-e-Muhammad"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Muhammad" Answer is Surah-e-sauf.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Surah-e-Muhammad" correct Answer is Surah-e-sauf.`));   
 }
     let quiz9Ans = await inquirer.prompt(
     {
@@ -169,17 +169,17 @@ if (quiz9Ans.quiz9 == "30 din"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
 }else if(quiz9Ans.quiz9 == "15 din"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "15 din" Answer is 30 din.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "15 din" correct Answer is 30 din.`));   
 }else if(quiz9Ans.quiz9 == "45 din"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "45 din" Answer is 30 din.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "45 din" correct Answer is 30 din.`));   
 }else if(quiz9Ans.quiz9 == "60 din"){
-    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "60 din" Answer is 30 din.`));   
+    console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "60 din" correct Answer is 30 din.`));   
 }
     let quiz10Ans = await inquirer.prompt(
     {
         name:"quiz10",
         type:"list",
-        message:"Kis pegamber ki qoum phataron ki barish se tabah hoi the?",
+        message:"Kis Pegamber ki Qoum phataron ki barish se tabah hoi the?",
         choices:["Hazrat Yaqoob A.S","Hazrat Shoaib A.S","Hazrat Hood A.S","Hazrat Luot A.S"]
     }
 )
@@ -187,11 +187,12 @@ if (quiz10Ans.quiz10 == "Hazrat Luot A.S"){
     console.log(chalk.bold.italic.underline.greenBright("Your answer is correct"));
     console.log(++score);
   }  else if(quiz10Ans.quiz10 == "Hazrat Yaqoob A.S"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Yaqoob A.S" Answer is Hazrat Luot A.S.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Yaqoob A.S" correct Answer is Hazrat Luot A.S.`));   
     }else if(quiz10Ans.quiz10 == "Hazrat Shoaib A.S"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Shoaib A.S" Answer is Hazrat Luot A.S.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Shoaib A.S" correct Answer is Hazrat Luot A.S.`));   
     }else if(quiz10Ans.quiz10 == "Hazrat Hood A.S"){
-        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Hood A.S" Answer is Hazrat Luot A.S.`));   
+        console.log(chalk.bold.italic.underline.redBright(`Wrong Answer\nYou select "Hazrat Hood A.S" correct Answer is Hazrat Luot A.S.`));   
     }
     console.log(chalk.italic.bold.magentaBright(`Your score is ${score} out of 10`));
 
+                   
